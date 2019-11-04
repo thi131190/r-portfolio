@@ -9,9 +9,8 @@ export default function About () {
             <div className='section-title text-center'>
               <h2 className='title'>About Me</h2>
               <p>
-                Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam
-                tempus, nunc id efficitur sagittis, urna est ultricies eros, ac
-                porta sem turpis quis leo.
+                My passion is creating, and I find happiness in being a better
+                me today than the me yesterday.
               </p>
             </div>
           </div>

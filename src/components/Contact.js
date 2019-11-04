@@ -9,8 +9,8 @@ export default function Contact () {
             <div className='section-title text-center pb-25'>
               <h2 className='title'>Get In Touch</h2>
               <p>
-                If you need any further information and request, please contact
-                me:
+                If you are interested in my profile don't hesitate to leave me a
+                message or contact me directly via...
               </p>
             </div>
           </div>

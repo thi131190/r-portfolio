@@ -130,7 +130,7 @@ export default function Header (props) {
               </div>
             </div>
             <div className='col-lg-6 offset-xl-1'>
-              <div style={{ border: '1px solid white' }}>
+              <div style={{ border: '5px solid white' }}>
                 <img src='assets/images/avatar.jpg' alt='hero' />
               </div>
             </div>
