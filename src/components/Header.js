@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Typewrite from './Typewrite'
 
-export default function Header () {
-  const [active, setActive] = useState('home')
-
+export default function Header (props) {
+  const { active, setActive } = props
   return (
     <div>
       <header id='home' className='header-area'>
@@ -39,7 +38,8 @@ export default function Header () {
                   >
                     <ul className='navbar-nav ml-auto'>
                       <li
-                        className={`nav-item  ${active === 'home' && 'active'}`}
+                        className={`nav-item   ${active === 'home' &&
+                          'active'}`}
                       >
                         <a href='#home' onClick={() => setActive('home')}>
                           Home
